@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>L'espace</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="democss.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.1.96/css/materialdesignicons.min.css" integrity="sha512-NaaXI5f4rdmlThv3ZAVS44U9yNWJaUYWzPhvlg5SC7nMRvQYV9suauRK3gVbxh7qjE33ApTPD+hkOW78VSHyeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body class="">
+    <header>
+      <div class="Logo">
+        <img src="./assets/logo.png" alt="" />
+      </div>
+      <div class="Title">
+        <h1 id="Accueil">Space Area</h1>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li>
+            <a href="demohtml.html">
+              <h2>Accueil</h2>
+            </a>
+          </li>
+          <li>
+            <a href="formulaire.html">
+              <h2>Nous contacter</h2>
+            </a>
+          </li>
+          <li>
+            <div class="input-container">
+              <i class="mdi mdi-magnify mdi-24px"></i>
+              <input type="text" placeholder="Rechercher...">
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="bodyform">
+      <div class="contenaire">
+        <div class="textform">
+          <h3>Nous contacter !</h3>
+          <p>Nous serons très heureux de pouvoir réponde à vos interrogations et pouvoir vous aider.</p>
+        </div>
+        <div class="contactbox">
+          <div class="contactgauche">
+            <form>
+              <div class="background">
+                <div class="inputrow">
+                  <div class="champs">
+                    <label class="labelformulaire">Prénom</label>
+                    <input class="champ" type="text" id="prenom" placeholder="Votre prénom">
+                  </div>
+                  <div class="champs">
+                    <label class="labelformulaire">Nom</label>
+                    <input class="champ" type="texte" id="nom" placeholder="Votre nom">
+                  </div>
+                  <div class="champs">
+                    <label class="labelformulaire">Numéro de téléphone</label>
+                    <input class="champ" type="text" id="numero" placeholder="00 00 00 00 00">
+                  </div>
+                  <div class="champs">
+                    <label for="age" class="labelformulaire">Votre âge</label>
+                    <select class="champ" name="champ" id="champ">
+                      <option value="" selected>Choisir votre âge</option>
+                      <option value="18">- 18</option>
+                      <option value="18-26">18-26</option>
+                      <option value="27-38">27-38</option>
+                      <option value="39-51">39-51</option>
+                      <option value="52+">52 +</option>
+                    </select>
+                  </div>
+                  <div class="champs">
+                    <label class="labelformulaire">Email</label>
+                    <input class="champ" type="e-mail" id="e-mail" placeholder="Votre adresse email">
+                  </div>
+                  <div class="champs">
+                    <label class="labelformulaire">Objet</label>
+                    <input class="champ" type="text" id="objet" placeholder="Objet de votre message">
+                  </div>
+                  <div class="champs">
+                    <label class="labelformulaire">Message</label>
+                    <textarea rows="11" cols="61" class="cham" id="area" placeholder="Votre message"></textarea>
+                    <button class="buttonform">Envoyer</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+    </main>
+    <footer>
+        <div class="contenufooter">
+          <div class="partiegauche">
+            <div class="newsletter">
+              <label for="newsletter">
+                <h5>Newsletter</h5>
+              </label>
+              <p>Pour décrouvrir toutes les actualités de l'Espace</p>
+              <input type="text" name="newsletter" placeholder="Votre email" />
+              <button>Envoyer</button>
+            </div>
+            <div class="gif">
+              <img src="./assets/giphy.gif" alt="" />
+            </div>
+          </div>
+          <div class="partiedroite">
+            <div class="textfooter">
+              <a href="./formulaire.html">Nous contacter</a>
+              <a href="">Mentions légales</a>
+              <a href="">Politique de confidentialité</a>
+              <a href="">Notre Galerie</a>
+            </div>
+            <div class="imagefooter">
+              <div class="footerrs">
+                <h5>Nos Réseaux sociaux : </h5>
+              </div>
+              <div class="linkrs">
+                <a href="https://www.instagram.com/" target="_blank">
+                  <img src="./assets/InstagramLogo.svg" alt="" />
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                  <img src="./assets/Facebooklogo.svg" alt="facebook" />
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                  <img src="./assets/YoutubeLogo.svg" alt="youtube" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </body>
+  </html>

@@ -1,0 +1,535 @@
+@font-face {
+  font-family: "MADE-Sunflower";
+  src: url("./police/MADE-Sunflower.otf");
+}
+.index h3 {
+  font-family: "MADE-Sunflower";
+  font-size: 40px;
+  color: #1c00b5;
+  border-bottom: 2px solid #1c00b5;
+  line-height: 50px;
+
+  
+}
+.conteneur-h3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+header {
+  width: 100%;
+  height: 200px;
+  background-image: url(./assets/Ciel_étoilé.jpg);
+  display: flex;
+  align-items: center;
+  margin: 0;
+  border: 0;
+  margin-bottom: 110px;
+}
+
+.Logo img {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  flex-grow: 2;
+}
+
+.Title {
+  color: white;
+  flex-grow: 1;
+  text-align: end;
+  font-size: 40px;
+  font-family: Titan one;
+}
+
+nav a {
+  color: white;
+  padding: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Rockwell;
+  transition: 0.5s;
+}
+
+
+.mainindex {
+  background-image: url(./assets/96a5toD.jpgS);
+}
+
+.input-container {
+  position: relative;
+}
+i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 5px;
+  color: black;
+}
+.menu input[type="text"] {
+  padding-left: 35px;
+  border-radius: 20px;
+  height: 20px;
+  width: 110px;
+  border: 2px solid black;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  align-items: center;
+}
+.menu h2 {
+  padding: 50px;
+  transition: 0.5s;
+}
+.menu h2:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+nav {
+  flex-grow: 1;
+}
+
+h1:hover {
+  background: -webkit-linear-gradient(#1c00b5, #ff0b0b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1 {
+  display: inline-block;
+}
+
+.Planetes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Planetes img {
+  width: 250px;
+  height: 250px;
+}
+
+.Planetes2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.Planetes2 img {
+  width: 250px;
+  height: 250px;
+}
+
+.p1,
+.p2,
+.p3,
+.p4 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.p5,
+.p6,
+.p7,
+.p8 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.Planetes img:hover,
+.Planetes2 img:hover {
+  width: 300px;
+  height: 300px;
+  transition: 0.5s;
+  opacity: 80%;
+}
+
+.Planetes img,
+.Planetes2 img {
+  transition: 0.5s;
+}
+
+.Planetes,
+.Planetes2 {
+  font-family: Lobster;
+  font-size: 50px;
+}
+
+.p1:hover,
+.p2:hover,
+.p3:hover,
+.p4:hover {
+  color: red;
+
+  transition: 0.5s;
+}
+
+.p5:hover,
+.p6:hover,
+.p7:hover,
+.p8:hover {
+  color: red;
+
+  transition: 0.5s;
+}
+
+.Planetes {
+  margin-top: 100px;
+}
+
+
+.mainindex .Tableau {
+  display: flex;
+  justify-content: center;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.mainindex td,
+th {
+  border: solid 1px rgba(255, 255, 255, 1);
+
+  text-align: center;
+}
+
+
+table {
+  border-collapse: collapse;
+}
+td {
+  border: solid black;
+}
+
+
+.mainindex tr:hover {
+  transform: scale(1.01);
+  color: #1c00b5;
+  font-weight: bold;
+  border: 3px solid #1c00b5;
+}
+
+.mainindex tr:hover th {
+  color: white;
+
+  cursor: default;
+}
+
+.mainindex table {
+  font-size: 15px;
+  margin: 25px 0;
+  min-width: 400px;
+  border-collapse: collapse;
+  background-color: white;
+  color: black;
+  border: 1px solid #f7f7f7;
+  cursor: pointer;
+}
+
+.mainindex th {
+  background-color: #1c00b5;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.mainindex th:last-child {
+  width: 300px;
+}
+
+.mainindex th,
+td {
+  margin: 5px;
+  padding: 15px 20px;
+}
+
+.mainindex tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+
+.Tableau {
+  margin-top: 70px;
+  margin-bottom: 150px;
+}
+
+video {
+
+width: 100vw;
+margin-top:200px;
+}
+
+
+/* ESPACE FOOTER*/
+footer {
+  /* margin-top: 200px; */
+  background-image: url(./assets/Ciel_étoilé.jpg);
+}
+.imagefooter {
+  height: auto;
+}
+
+.imagefooter img {
+  width: 50px;
+}
+
+.imagefooter {
+  display: flex;
+  flex-direction: column;
+}
+
+.contenufooter {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+footer input {
+  border: 1px solid white;
+  width: 160px;
+  height: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px black;
+}
+
+footer button {
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  background-color: #1c00b5;
+  color: white;
+  border: solid white 1px;
+}
+
+footer .partiegauche {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.partiedroite {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 125px;
+}
+.linkrs {
+  display: flex;
+  gap: 20px;
+}
+.contenufooter .gif img {
+  width: 35%;
+  min-width: 100px;
+  margin-top: 30px;
+}
+
+.gif {
+  display: inherit;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.contenufooter .textfooter {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 20px;
+  margin-top: 50px;
+}
+.contenufooter .textfooter a {
+  text-decoration: none;
+  color: white;
+}
+
+.contenufooter .textfooter a:hover {
+  color: blueviolet;
+}
+
+footer h5 {
+  font-size: 25px;
+  font-family: "Itim", cursive;
+}
+
+footer p,
+a {
+  font-family: "Space Mono", monospace;
+  font-size: 18px;
+}
+
+/* Formulaire
+zeezeze
+zezezezez
+zeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+zeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+ezzzzzzzzzzzzzzzzzzzzzzzzzzzeeeeee */
+
+form {
+  width: 600px;
+  height: 1100px;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px white;
+}
+
+.contactgauche {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+
+.champs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 35px;
+}
+
+.textform {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.champ {
+  color: #1c00b5;
+}
+.inputrow .champ {
+  border: 1px solid white;
+  width: 500px;
+  height: 41px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px black;
+}
+
+.inputrow label {
+  display: block;
+  width: 300px;
+  margin-right: 194px;
+}
+
+.labelformulaire {
+  font-size: 25px;
+}
+
+.bodyform ::-webkit-input-placeholder {
+  color: #1c00b5;
+  font-family: "Space Mono", monospace;
+}
+.bodyform option {
+  font-family: "Space Mono", monospace;
+}
+
+.inputrow {
+  margin-top: 30px;
+}
+
+form button {
+  margin-top: 20px;
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  background-color: #1c00b5;
+  color: white;
+  border: solid white 1px;
+}
+
+form button:hover {
+  background: linear-gradient(to right, blue, black);
+}
+
+.bodyform {
+  background-image: url(./assets/RLYzqIx.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bodyform h3 {
+  color: #1c00b5;
+  font-size: 45px;
+  font-family: "Space Mono", monospace;
+}
+
+.bodyform p {
+  font-size: 25px;
+  font-family: "Space Mono", monospace;
+}
+
+.constelall {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 80px;
+  margin-top: 100px;
+}
+
+.card {
+  width: 250px;
+  height: 320px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: transform 500ms ease-in-out;
+  transform-style: preserve-3d;
+  margin: 40px;
+  
+}
+
+.card img {
+  width: 250px;
+  height: 320px;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: rotateY(180deg);
+}
+.side {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  border-radius: 10px;
+}
+
+
+.side--back {
+  box-shadow: 1px 1px 10px white;
+  background-color: #000;
+  transform: rotateY(180deg);
+  color: #f8f6ea;
+  padding: 10px;
+}
+
+
+.side--back h4 {
+  display: flex;
+  justify-content: center;
+}
+
+.side--back p {
+  text-align: justify;
+  line-height: 25px;
+  font-size: 15px;
+}
